@@ -1,0 +1,12 @@
+.AboutUs{
+    display: flex;
+    flex-direction: column;
+}
+
+.AdvisoryBoard {
+    margin-top: 200px;
+}
+
+.IndustryAdvisors {
+    margin-top: 245px;
+}
