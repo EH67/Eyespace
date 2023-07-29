@@ -1,16 +1,47 @@
+/* .container {
+  position: relative;
+  width: 100%;
+  height: auto;
+} */
+
 .who-we-are {
   position: relative;
   background-size: cover;
   background-position: center;
-  opacity: 0.5; /* dim the background image */
+  opacity: 0.5;
+}
+
+ul {
+  background-color: black;
+}
+
+.background-image {
+  display: block;
+  max-width: auto;
+  height: 1250px;
+  opacity: 0.5;
 }
 
 .title {
+  position: absolute;
+  top: 50%; /* Adjust as needed to vertically center the title */
+  left: 35%; /* Adjust as needed to horizontally center the title */
+  transform: translate(-50%, -50%);
+
   color: white;
   font-size: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
 }
 
 .subtext {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+
   color: white;
   font-size: 28px;
 }
